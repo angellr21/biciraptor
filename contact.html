@@ -226,36 +226,33 @@ Author: Kamleshyadav
             <div class="row padder_top50">
                 <div class="col-lg-4 col-md-12">
                     <div class="cy_con_box">
-                        <img src="http://via.placeholder.com/370x220" alt="phone" class="img-fluid" />
+                        <img src="http://via.placeholder.com/370x220" alt="Teléfono" class="img-fluid" />
                         <div class="cy_con_overlay">
                             <div class="cy_con_data">
-                                <h3>phone</h3>
-                                <p>07700 900002</p>
-                                <p> 07700 900980</p>
+                                <h3>Teléfono</h3>
+                                <p><a href="https://wa.me/584126613833" target="_blank" rel="noopener noreferrer">+58 412-6613833</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="cy_con_box">
-                        <img src="http://via.placeholder.com/370x220" alt="email" class="img-fluid" />
+                        <img src="http://via.placeholder.com/370x220" alt="Correo" class="img-fluid" />
                         <div class="cy_con_overlay">
                             <div class="cy_con_data">
-                                <h3>Email</h3>
-                                <p>cycling@yourclub.com</p>
-                                <p> help@yourmail.com</p>
+                                <h3>Correo</h3>
+                                <p><a href="mailto:biciraptor@gmail.com">biciraptor@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="cy_con_box">
-                        <img src="http://via.placeholder.com/370x220" alt="address" class="img-fluid" />
+                        <img src="http://via.placeholder.com/370x220" alt="Dirección" class="img-fluid" />
                         <div class="cy_con_overlay">
                             <div class="cy_con_data">
-                                <h3>Address</h3>
-                                <p>22 Grandrose Street</p>
-                                <p> North Fort Myers, FL 33917</p>
+                                <h3>Dirección</h3>
+                                <p><a href="https://maps.app.goo.gl/YFeravrni6ujpSjR9" target="_blank" rel="noopener noreferrer">Avenida Fuerzas Armadas, C.C. Centro Norte (al lado de Helados Cali)</a></p>
                             </div>
                         </div>
                     </div>
@@ -303,7 +300,7 @@ Author: Kamleshyadav
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="cy_map">
-                        <div id="contact_map"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.739194917643!2d-71.62145102581692!3d10.67812516008749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8998e3b40079c5%3A0x629c4f4b2f2e5d9!2sHelados%20Cali%20Fuerzas%20Armadas!5e0!3m2!1ses-419!2sve!4v1730592005856!5m2!1ses-419!2sve" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
             </div>
@@ -423,48 +420,10 @@ Author: Kamleshyadav
     <script src="js/appear.js"></script>
     <script src="js/plugin/owl/owl.carousel.min.js"></script>
     <script src="js/plugin/magnific/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.googlemap.js"></script>
     <script src="js/contact_form.js"></script>
-    <!--map-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNdePPJKYq0ptBV_AFi_4RnmUtMa1ZLFg&libraries=places">
-    </script>
     <script src="js/jquery.nice-select.min.js"></script>
     <script src="js/custom.js"></script>
 
-
-    <script>
-
-        $(document).ready(function() {
-            var myCenter = new google.maps.LatLng(28.419536, -81.462931);
-
-            function initialize() {
-                var mapProp = {
-                    center: myCenter,
-                    zoom: 17,
-                    scrollwheel: false,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                var map = new google.maps.Map(document.getElementById("contact_map"), mapProp);
-                var icon = {
-                    url: 'images/map_pin.png'
-                };
-                var marker = new google.maps.Marker({
-                    position: myCenter,
-                    map: map,
-                    title: 'Cycling Template',
-                    icon: icon
-                });
-                marker.setMap(map);
-                var infowindow = new google.maps.InfoWindow({
-                    content: "<span> Cycling Template </span>"
-                });
-                google.maps.event.addListener(marker, 'click', function() {
-                    infowindow.open(map, marker);
-                });
-            }
-            google.maps.event.addDomListener(window, 'load', initialize);
-        });
-    </script>
 
 </body>
 
