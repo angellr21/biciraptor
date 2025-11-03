@@ -38,7 +38,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     line-height: 1.42857143;
-    color: #424e59;
+    color: #23311a;
     background-color: #fff;
 }
 h1,h2,h3,h4,h5,h6,
@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5,h6,
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     line-height: 1.1;
-    color: #2f3942;
+    color: #23311a;
     margin: 0;
 }
 p{
@@ -67,7 +67,7 @@ a:focus {
 .cy_button {
     font-size: 15px;
     text-transform: capitalize;
-    background-color: #ff712a;
+    background-color: #7c9f29;
     padding: 0px 45px;
     height: 48px;
     display: inline-block;
@@ -104,21 +104,21 @@ a:focus {
     border-radius: 28px;
 }
 .cy_button:before {
-    border-bottom: 2px solid #ff712a;
-    border-left: 2px solid #ff712a;
+    border-bottom: 2px solid #7c9f29;
+    border-left: 2px solid #7c9f29;
     -webkit-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
 }
 .cy_button:after {
-    border-top: 2px solid #ff712a;
-    border-right: 2px solid #ff712a;
+    border-top: 2px solid #7c9f29;
+    border-right: 2px solid #7c9f29;
     -webkit-transform-origin: 50% 50%;
 }
 .cy_button:hover {
     background-color: transparent;
-    color: #ff712a;
+    color: #6b8b24;
     cursor:pointer;
 }
 .cy_button:hover:after,
@@ -171,20 +171,20 @@ button:focus{
     box-shadow: none !important;
 }
 .form-control:focus{
-    border:1px solid rgba(0,0,0,.15);
+    border:1px solid rgba(35,49,26,0.15);
 	background:#ffffff !important;
 }
 ::-webkit-input-placeholder {
-    color: #424e59;
+    color: #23311a;
 }
 ::-moz-placeholder {
-    color: #424e59;
+    color: #23311a;
 }
 :-ms-input-placeholder {
-    color: #424e59;
+    color: #23311a;
 }
 :-moz-placeholder {
-    color: #424e59;
+    color: #23311a;
 }
 .loader_wrapper {
     position: fixed;
@@ -212,7 +212,7 @@ button:focus{
     position: relative;
 }
 .cy_top_info {
-    background-color: #070a0c;
+    background-color: #23311a;
 }
 .cy_top_detail {
     width: auto;
@@ -228,7 +228,7 @@ button:focus{
     color: #ffffff;
     font-size: 13px;
     padding: 15px 20px;
-    border-right: 1px solid #4e4e51;
+    border-right: 1px solid #23311a;
     position: relative;
 }
 .cy_top_detail ul li a {
@@ -250,7 +250,7 @@ button:focus{
     padding-left: 0px;
 }
 .cy_top_detail ul li a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_top_detail ul > li.cart > a > i{ 
     font-size: 17px;
@@ -259,7 +259,7 @@ button:focus{
     position: absolute;
     top: 4px;
     right: -10px;
-    background: #ff7948;
+    background: #8ab733;
     border-radius: 100%;
     padding: 0px 5px;
     font-size: 12px;
@@ -272,7 +272,7 @@ button:focus{
     top:100%;
     right: 0;
     width:250px;
-    background: #100f0f;
+    background: #23311a;
     z-index: 200;
     opacity: 0;
     visibility: hidden;
@@ -330,7 +330,7 @@ ul.cart_box li .cart_section a.cart_delete{
     color: #ffffff;
     right: 10px;
     top: 10px;
-    background: #ff712a;
+    background: #7c9f29;
     border-radius: 100%;
     padding: 0px 3px;
     font-size: 10px;
@@ -339,7 +339,7 @@ ul.cart_box li .cart_section a.cart_delete:hover{
     cursor: pointer;
 }
 ul.cart_box li .cart_section .cart_detail h4 a{
-    color:#ff712a;
+    color:#7c9f29;
     font-size: 16px;
     margin-bottom: 5px;
 }
@@ -378,7 +378,7 @@ ul.cart_box li .cart_section a.cy_button{
 .cy_logo_box {
     position: absolute;
     width: 385px;
-    background-color: #f27131;
+    background-color: #6b8b24;
     padding: 45px 85px;
     text-align: right;
     top: -50px;
@@ -388,7 +388,7 @@ ul.cart_box li .cart_section a.cy_button{
     position: absolute;
     width: 131px;
     height: 100%;
-    background-color: #f27131;
+    background-color: #6b8b24;
     content: "";
     right: -75px;
     z-index: -1;
@@ -432,7 +432,7 @@ button.cy_menu_btn {
     display: block;
     font-size: 15px;
     text-transform: uppercase;
-    color: #2f3942;
+    color: #23311a;
     font-weight: 500;
     position: relative;
     transition: all .5s;
@@ -442,13 +442,13 @@ button.cy_menu_btn {
     -o-transition: all .5s;
 }
 .cy_menu ul > li > a.active {
-    color: #ff712a;
+    color: #7c9f29;
 }
 .cy_menu ul > li > a.active:after {
     width: 100%;
 }
 .cy_menu ul > li:hover > a {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_menu ul > li:last-child {
     margin-right: 0px;
@@ -462,7 +462,7 @@ button.cy_menu_btn {
     width: 0%;
     content: '.';
     color: transparent;
-    background: #ff712a;
+    background: #7c9f29;
     height: 3px;
     transition: all .5s;
     -webkit-transition: all .5s;
@@ -481,7 +481,7 @@ button.cy_menu_btn {
     padding: 30px 0px;
 }
 .cy_search a i{
-    color:#222222;
+    color:#23311a;
 }
 .cy_search_form{
     position: fixed;
@@ -489,7 +489,7 @@ button.cy_menu_btn {
     top: 0;
     bottom:0;
     left:0;
-    background: rgba(0,0,0,0.9);
+    background: rgba(35,49,26,0.9);
     z-index: 400;
     -webkit-transform: scaleY(0);
     -moz-transform: scaleY(0);
@@ -539,9 +539,9 @@ button.cy_menu_btn {
     height: 55px;
     width:55px;
     line-height: 55px;
-    color: #ff712a;
+    color: #7c9f29;
     text-align: center;
-    background: #ff712a;
+    background: #7c9f29;
     color:#fff;
 }
 .cy_search_input i:hover{
@@ -551,7 +551,7 @@ button.cy_menu_btn {
     position: absolute;
     right: 20px;
     top: 20px;
-    background: #ff712a;
+    background: #7c9f29;
     border: none;
     border-radius: 100%;
     color: #ffffff;
@@ -576,7 +576,7 @@ button.cy_menu_btn {
     right: -70px;
     width: 110px;
     color: #ffffff;
-    background: #ff712a;
+    background: #7c9f29;
     cursor: pointer;
     font-size: 16px;
     -webkit-transition: all 0.3s;
@@ -692,7 +692,7 @@ button.cy_menu_btn {
     color: #797979;
 }
 .cy_sign_form p a:hover{
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_sign_form p a{
     color: #797979;
@@ -709,13 +709,13 @@ button.cy_menu_btn {
     width: 15px;
     text-align: center;
     line-height: 15px;
-    border: 1px solid #ff712a;
+    border: 1px solid #7c9f29;
 }
 .forget_password label input{
     display: none;
 }
 .forget_password label input:checked ~ .checkmark{
-    background-color: #ff712a;
+    background-color: #7c9f29;
 }
 .forget_password label .checkmark:after {
     content: "";
@@ -1002,7 +1002,7 @@ h1.cy_heading {
     transform: translate(-50%, -50%);
 }
 .cy_gal_img .gal_buttons .fa {
-    background: #ff712a;
+    background: #7c9f29;
     color: #ffffff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -1030,7 +1030,7 @@ h1.cy_heading {
 }
 .cy_gal_img .gal_buttons .fa:hover {
     background-color: #ffffff;
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_gal_img:hover .img_gal_ovrly {
     opacity: 1;
@@ -1048,11 +1048,11 @@ h1.cy_heading {
 }
 .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-    color: #ff712a;
+    color: #7c9f29;
     opacity: 1;
 }
 .mfp-counter {
-    color: #ff712a !important;
+    color: #7c9f29 !important;
 }
 .mfp-arrow {
     opacity: 1 !important;
@@ -1064,13 +1064,13 @@ h1.cy_heading {
     border-right: 27px solid #ffffff !important;
 }
 .mfp-arrow-left:after {
-    border-right: 17px solid #ff712a !important;
+    border-right: 17px solid #7c9f29 !important;
 }
 .mfp-arrow-right:before {
     border-left: 27px solid #ffffff;
 }
 .mfp-arrow-right:after {
-    border-left: 17px solid #ff712a;
+    border-left: 17px solid #7c9f29;
 }
 .cy_tour_wrapper {
     background-image: url(http://via.placeholder.com/1920x373);
@@ -1106,7 +1106,7 @@ h1.cy_heading {
 }
 .cy_tour_data .cy_button {
     background-color: #ffffff;
-    color: #ff712a;
+    color: #7c9f29;
 }
 .cy_tour_heading {
     padding: 120px 0px;
@@ -1190,14 +1190,14 @@ h1.cy_heading {
     margin: 27px 0px 8px;
 }
 .cy_event_data h2 a {
-    color: #2f3942;
+    color: #23311a;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
 }
 .cy_event_data h2 a:hover {
-    color: #f27131;
+    color: #6b8b24;
     text-decoration: none;
 }
 .cy_event_data p {
@@ -1211,7 +1211,7 @@ h1.cy_heading {
 }
 .cy_event_date {
     float: right;
-    background-color: #ff712a;
+    background-color: #7c9f29;
     padding: 10px 25px;
     text-align: center;
 }
@@ -1261,7 +1261,7 @@ span.ev_yr {
     position: absolute;
     top: -6px;
     left: 0;
-    background-color: #f17131;
+    background-color: #6b8b24;
     width: 3px;
     height: 30px;
     content: "";
@@ -1276,10 +1276,10 @@ span.ev_yr {
     color: #666666;
 }
 .cy_event_det_box p a:hover {
-    color: #f27131;
+    color: #6b8b24;
 }
 .cy_event_det_box p span {
-    color: #2f3942;
+    color: #23311a;
     text-transform: capitalize;
     font-weight: 500;
 }
@@ -1369,13 +1369,13 @@ span.ev_yr {
     font-size:15px;
 }
 .ev_cls_data h4 a {
-    color: #2f3942;
+    color: #23311a;
     font-size: 15px;
     margin: 0px;
     text-transform: capitalize;
 }
 .ev_cls_data h4 a:hover {
-    color: #f27131;
+    color: #6b8b24;
 }
 .widget.event_class {
     display: inline-block;
@@ -1392,7 +1392,7 @@ span.ev_yr {
     z-index: -1;
 }
 .ev_cls_data p {
-    color: #424e59;
+    color: #23311a;
     line-height: 24px;
     font-size: 13px;
     margin: 0px;
@@ -1449,14 +1449,14 @@ span.ev_yr {
     left:0;
     width:100%;
     height:100%;
-    background:rgba(0,0,0,0.5);
+    background:rgba(35,49,26,0.5);
 }
 .cy_races_img_overlay h4{
     font-size: 12px;
     position: absolute;
     top:0;
     left:0;
-    background:#f27131;
+    background:#6b8b24;
     color:#ffffff;
     text-align: center;
     padding: 15px 10px;
@@ -1471,11 +1471,11 @@ span.ev_yr {
     margin-bottom: 10px;
 }
 .cy_races_data h2 a{
-    color:#2f3942;
+    color:#23311a;
     display: inline-block;
 }
 .cy_races_data h2 a:hover{
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_races_data ul {
     padding: 0px;
@@ -1488,7 +1488,7 @@ span.ev_yr {
     margin-bottom: 5px;
 }
 .cy_races_data ul li a{
-    color: #424e59;
+    color: #23311a;
 }
 .cy_races_data ul li:last-child{
     margin-bottom: 0px;
@@ -1621,7 +1621,7 @@ span.ev_yr {
     position: absolute;
     top: 20px;
     left: 0;
-    background: #ff712a;
+    background: #7c9f29;
     border-radius: 0px 100px 100px 0px;
     color: #ffffff;
     padding: 6px 25px 6px 15px;
@@ -1645,14 +1645,14 @@ span.ev_yr {
     width:100%;
 }
 .cy_store_box .cy_store_data .cy_store_text h3 a:hover{
-	color:#ff712a;
+	color:#6b8b24;
 }
 .cy_store_box .cy_store_data .cy_store_text h3 a{
     font-size: 18px;
     width: 50%;
     float: left;
     text-align:left;
-    color:#2f3942;
+    color:#23311a;
 }
 .cy_store_box .cy_store_data .cy_store_text ul{
     display: inline-block;
@@ -1664,7 +1664,7 @@ span.ev_yr {
 }
 .cy_store_box .cy_store_data .cy_button:after{
     content:attr(data-hover);
-    color:#ff712a;
+    color:#7c9f29;
 }
 .cy_store_box .cy_store_data .cy_button:hover span{
     visibility: hidden;
@@ -1720,7 +1720,7 @@ span.ev_yr {
     z-index: 1;
 }
 .cy_price_head:after {
-    background-color: #ff712a;
+    background-color: #7c9f29;
     position: absolute;
     content: "";
     width: auto;
@@ -1756,7 +1756,7 @@ span.ev_yr {
 .cy_price_box {
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0.35);
-    border-bottom: 2px solid #ff712a;
+    border-bottom: 2px solid #7c9f29;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.s ease-in-out;
@@ -1869,7 +1869,7 @@ span.ev_yr {
     z-index: 1;
 }
 .cy_blog_img .cy_blog_links a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 ul.cy_blog_info {
     padding: 0px;
@@ -1881,7 +1881,7 @@ ul.cy_blog_info li {
     list-style: none;
 }
 ul.cy_blog_info li a {
-    color: #2f3942;
+    color: #23311a;
     font-size: 15px;
     text-transform: capitalize;
     padding: 0px 10px;
@@ -1933,14 +1933,14 @@ ul.cy_blog_info li:last-child a {
     -ms-transform: scale(1);
 }
 .cy_blog_img .cy_blog_links ul li ul.cy_so_icons li a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_blog_data h2 {
     font-size: 18px;
     margin: 16px 0px 10px 0px;
 }
 .cy_blog_data h2 a {
-    color: #2f3942;
+    color: #23311a;
 }
 .cy_blog_data p {
     line-height: 27px;
@@ -1948,7 +1948,7 @@ ul.cy_blog_info li:last-child a {
 }
 .cy_blog_data h2 a:hover,
 ul.cy_blog_info li:hover a {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_sponsors_wrapper {
     background-image: url(http://via.placeholder.com/1920x418);
@@ -2012,7 +2012,7 @@ ul.cy_blog_info li:hover a {
     width: auto;
 }
 .cy_footer_wrapper {
-    background-color: #2f3942;
+    background-color: #23311a;
 }
 .footer-widget.cy_footer_about p {
     padding-top: 14px;
@@ -2086,7 +2086,7 @@ h1.widget-title {
     margin-bottom: 20px;
 }
 .cy_post_data h3 a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_foo_contact span {
     float: left;
@@ -2110,7 +2110,7 @@ h1.widget-title {
     color: #9faebc;
 }
 .cy_foo_contact p a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .cy_foo_gallery {
     padding-top: 7px;
@@ -2161,7 +2161,7 @@ h1.widget-title {
     color: #9faebc;
 }
 .cy_btm_footer p a {
-    color: #ff712a;
+    color: #7c9f29;
 }
 /*==Go To Top Css Start==*/
 
@@ -2199,7 +2199,7 @@ span.cy_go_text {
 }
 .way {
     width: 100%;
-    border-bottom: 10px dashed #000;
+    border-bottom: 10px dashed #23311a;
     position: absolute;
     bottom: 20%;
     -webkit-animation: move 0.8s infinite linear;
@@ -2291,7 +2291,7 @@ span.cy_go_text {
     width: 2px;
     height: 100%;
     margin-left: -1px;
-    background-color: #2f3942;
+    background-color: #23311a;
     z-index: 5;
 }
 .cy_timeline:after {
@@ -2305,7 +2305,7 @@ span.cy_go_text {
     margin-left: -6px;
     background: #ffffff;
     border-radius: 10px;
-    border: 4px solid #2f3942;
+    border: 4px solid #23311a;
     z-index: 10;
 }
 .cy_timeline li {
@@ -2385,10 +2385,10 @@ li .cy_tl-item.dir-r:before {
     margin: 20px 0px 15px;
 }
 .cy_club_data h3 a {
-    color: #2f3942;
+    color: #23311a;
 }
 .cy_club_data h3 a:hover {
-    color: #f27131;
+    color: #6b8b24;
 }
 .cy_club_data p {
     line-height: 26px;
@@ -2418,7 +2418,7 @@ li .cy_tl-item.dir-r:before {
 .cy_pagination ul.pagination a.page_next {
     width: 40px;
     height: 40px;
-    background-color: #ff712a;
+    background-color: #7c9f29;
     color: #fff;
     font-size: 12px;
     border-radius: 100%;
@@ -2434,7 +2434,7 @@ li .cy_tl-item.dir-r:before {
 .cy_pagination ul.pagination a.page_pre:hover,
 .cy_pagination ul.pagination a.page_next:hover {
     background-color: transparent;
-    color: #ff712a;
+    color: #6b8b24;
     margin: 10px 20px 0px;
 }
 .cy_pagination ul.pagination a.page_pre:before,
@@ -2463,8 +2463,8 @@ li .cy_tl-item.dir-r:before {
 }
 .cy_pagination ul.pagination a.page_pre:before,
 .cy_pagination ul.pagination a.page_next:before {
-    border-bottom: 2px solid #ff712a;
-    border-left: 2px solid #ff712a;
+    border-bottom: 2px solid #7c9f29;
+    border-left: 2px solid #7c9f29;
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     -moz-transform-origin: 50% 50%;
@@ -2472,8 +2472,8 @@ li .cy_tl-item.dir-r:before {
 }
 .cy_pagination ul.pagination a.page_pre:after,
 .cy_pagination ul.pagination a.page_next:after {
-    border-top: 2px solid #ff712a;
-    border-right: 2px solid #ff712a;
+    border-top: 2px solid #7c9f29;
+    border-right: 2px solid #7c9f29;
     -webkit-transform-origin: 50% 50%;
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
@@ -2494,7 +2494,7 @@ li .cy_tl-item.dir-r:before {
     padding: 0;
     margin: 10px 20px 0px;
     line-height: 40px;
-    color: #2f3942;
+    color: #23311a;
     font-size: 15px;
     background-color: transparent;
     border: none;
@@ -2508,7 +2508,7 @@ li .cy_tl-item.dir-r:before {
 }
 .cy_pagination .pagination > li > a.active,
 .cy_pagination .pagination > li > a:hover {
-    color: #ff712a;
+    color: #6b8b24;
     margin-top: 4px;
 }
 .cy_blockquotes {
@@ -2521,7 +2521,7 @@ li .cy_tl-item.dir-r:before {
     font-weight: 400;
     font-style: italic;
     line-height: 26px;
-    border-left: 5px solid #ff712a;
+    border-left: 5px solid #7c9f29;
     background-color: #f8f9fa;
 }
 .comments-area {
@@ -2563,11 +2563,11 @@ h3.comments-title {
     float: left;
 }
 .comment_data_info h3 a {
-    color: #2f3942;
+    color: #23311a;
     margin-right: 30px;
 }
 .comment_data_info h3 a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .comment-reply {
     float: right;
@@ -2582,7 +2582,7 @@ h3.comments-title {
     margin: 0px;
 }
 .comment-reply a {
-    color: #2f3942;
+    color: #23311a;
     text-transform: capitalize;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
@@ -2595,7 +2595,7 @@ h3.comments-title {
     margin-right: 15px;
 }
 .comment-reply a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .comment-reply i {
     margin-right: 10px;
@@ -2646,7 +2646,7 @@ h3#reply-title {} h3.comment-reply-title {
     resize: none;
 }
 .comment-respond input#comment-submit {
-    border: 1px solid #ff712a;
+    border: 1px solid #7c9f29;
 }
 .comment-respond input#comment-submit:focus {
     outline: none;
@@ -2685,7 +2685,7 @@ h3.widget-title:before {
     position: absolute;
     top: -6px;
     left: 0;
-    background-color: #f17131;
+    background-color: #6b8b24;
     width: 3px;
     height: 30px;
     content: "";
@@ -2697,7 +2697,7 @@ h3.widget-title:before {
     padding: 6px 12px;
     padding-right: 40px;
     font-size: 15px;
-    color: #2f3942;
+    color: #23311a;
     background-color: #f8f9fa;
     border: 1px solid #d9dcde;
     border-radius: 0;
@@ -2719,7 +2719,7 @@ h3.widget-title:before {
 }
 .widget.widget_search .input-group .cy_search_btn .btn:hover{
 	cursor:pointer;
-	color:#ff712a;
+	color:#6b8b24;
 }
 .widget.widget_categories ul li {
     width: 100%;
@@ -2731,7 +2731,7 @@ h3.widget-title:before {
 .widget.widget_categories ul li a {
     width: auto;
     display: inline-block;
-    color: #424e59;
+    color: #23311a;
     position: relative;
     text-transform: capitalize;
     padding-left: 13px;
@@ -2752,7 +2752,7 @@ h3.widget-title:before {
 }
 .widget.widget_categories ul li a:hover {
     margin-left: 10px;
-    color: #ff712a;
+    color: #6b8b24;
 }
 .widget.widget_recent_entries ul li {
     margin-bottom: 22px;
@@ -2777,13 +2777,13 @@ h3.widget-title:before {
     line-height: 24px;
 }
 .widget.widget_recent_entries ul li .recent_cmnt_data h4 a {
-    color: #2f3942;
+    color: #23311a;
 }
 .widget.widget_recent_entries ul li .recent_cmnt_data span {
     font-size: 13px;
 }
 .widget.widget_recent_entries ul li .recent_cmnt_data h4 a:hover {
-    color: #ff712a;
+    color: #6b8b24;
 }
 .widget.widget_recent_entries ul li:last-child {
     margin-bottom: 0px;
@@ -2798,7 +2798,7 @@ h3.widget-title:before {
 .widget.widget_tag_cloud ul li a {
     font-size: 13px;
     color: #ffffff;
-    background-color: #2f3942;
+    background-color: #23311a;
     display: block;
     padding: 0px 24px;
     text-transform: capitalize;
@@ -2807,7 +2807,7 @@ h3.widget-title:before {
     position: relative;
 }
 .widget.widget_tag_cloud ul li a:hover {
-    background-color: #ff712a;
+    background-color: #6b8b24;
 }
 .widget.widget_social_links ul li {
     display: inline-block;
@@ -2965,7 +2965,7 @@ h3.widget-title:before {
 .cy_error_data h1 {
     font-size: 100px;
     font-weight: 900;
-    color: #ff712a;
+    color: #7c9f29;
     margin: 0px;
     margin-bottom: 10px;
 }
@@ -2994,7 +2994,7 @@ h3.widget-title:before {
     padding: 6px 12px;
     padding-right: 40px;
     font-size: 15px;
-    color: #2f3942;
+    color: #23311a;
     background-color: #f8f9fa;
     border: 1px solid #d9dcde;
     border-radius: 0;
@@ -3022,7 +3022,7 @@ h3.widget-title:before {
     background-color: transparent;
 }
 .widget.woocommerce.widget_product_search .btn:hover{
-    color: #ff712a;
+    color: #6b8b24;
 	cursor:pointer;
 }
 .widget.woocommerce.widget_category{
@@ -3042,7 +3042,7 @@ h3.widget-title:before {
     position: absolute;
     top: -6px;
     left: 0;
-    background-color: #f17131;
+    background-color: #6b8b24;
     width: 3px;
     height: 30px;
     content: "";
@@ -3061,7 +3061,7 @@ h3.widget-title:before {
     margin-bottom: 0px;
 }
 .widget.woocommerce.widget_category ul li a{
-    color:#424e59;
+    color:#23311a;
     display: inline-block;
 }
 .widget.woocommerce.widget_category ul li a input{
@@ -3078,13 +3078,13 @@ h3.widget-title:before {
     width: 15px;
     text-align: center;
     line-height: 15px;
-    border: 1px solid #ff712a;
+    border: 1px solid #7c9f29;
 }
 .widget.woocommerce.widget_category ul li label input{
     display: none;
 }
 .widget.woocommerce.widget_category ul li label input:checked ~ .checkmark{
-    background-color: #ff712a;
+    background-color: #7c9f29;
 }
 .widget.woocommerce.widget_category ul li label .checkmark:after {
     content: "";
@@ -3109,7 +3109,7 @@ h3.widget-title:before {
 	padding:30px 30px 24px 30px;
 }
 .widget.woocommerce.widget_price .ui-widget-content .ui-state-default{
-    background: #ff712a;
+    background: #7c9f29;
     border: none;
     border-radius: 100%;
     top: -5px;
@@ -3120,7 +3120,7 @@ h3.widget-title:before {
     outline:none;
 }
 .widget.woocommerce.widget_price .ui-widget-header{
-    background:#ff712a;
+    background:#7c9f29;
 }
 .widget.woocommerce.widget_price .ui-widget-content{
     border:none;
@@ -3132,7 +3132,7 @@ h3.widget-title:before {
 .widget.woocommerce.widget_price .cy_range input{
     width: 100%;
     border:none;
-    color:#424e59;
+    color:#23311a;
     font-size: 15px;
 	background:none;
 }
@@ -3155,7 +3155,7 @@ h3.widget-title:before {
     margin-bottom: 0px;
 }
 .widget.woocommerce.widget_availability ul li a{
-    color:#424e59;
+    color:#23311a;
     display: inline-block;
 }
 .widget.woocommerce.widget_availability ul li a input{
@@ -3172,13 +3172,13 @@ h3.widget-title:before {
     width: 15px;
     text-align: center;
     line-height: 15px;
-    border: 1px solid #ff712a;
+    border: 1px solid #7c9f29;
 }
 .widget.woocommerce.widget_availability ul li label input{
     display: none;
 }
 .widget.woocommerce.widget_availability ul li label input:checked ~ .checkmark{
-    background-color: #ff712a;
+    background-color: #7c9f29;
 }
 .widget.woocommerce.widget_availability ul li label .checkmark:after {
     content: "";
@@ -3223,7 +3223,7 @@ h3.widget-title:before {
     margin-bottom: 0px;
 }
 .widget.woocommerce.widget_color ul li a{
-    color:#424e59;
+    color:#23311a;
     display: inline-block;
 }
 .widget.woocommerce.widget_color ul li a input{
@@ -3237,7 +3237,7 @@ h3.widget-title:before {
     width: 15px;
     text-align: center;
     line-height: 15px;
-    border: 1px solid #ff712a;
+    border: 1px solid #7c9f29;
 }
 .widget.woocommerce.widget_color ul li label:hover{
     cursor: pointer;
@@ -3246,7 +3246,7 @@ h3.widget-title:before {
     display: none;
 }
 .widget.woocommerce.widget_color ul li label input:checked ~ .checkmark{
-    background-color: #ff712a;
+    background-color: #7c9f29;
 }
 .widget.woocommerce.widget_color ul li label .checkmark:after {
     content: "";
@@ -3284,7 +3284,7 @@ h3.widget-title:before {
     margin-bottom: 0px;
 }
 .widget.woocommerce.widget_size ul li a{
-    color:#424e59;
+    color:#23311a;
     display: inline-block;
 }
 .widget.woocommerce.widget_size ul li a input{
@@ -3301,13 +3301,13 @@ h3.widget-title:before {
     width: 15px;
     text-align: center;
     line-height: 15px;
-    border: 1px solid #ff712a;
+    border: 1px solid #7c9f29;
 }
 .widget.woocommerce.widget_size ul li label input{
     display: none;
 }
 .widget.woocommerce.widget_size ul li label input:checked ~ .checkmark{
-    background-color: #ff712a;
+    background-color: #7c9f29;
 }
 .widget.woocommerce.widget_size ul li label .checkmark:after {
     content: "";
@@ -3349,10 +3349,10 @@ h3.widget-title:before {
     margin: 0;
 }
 .cy_shop_view ul li.active a{
-    color:#ff712a;
+    color:#7c9f29;
 }
 .cy_shop_view ul li a{
-    color:#333333;
+    color:#23311a;
     font-size: 18px;
 	display:inline-block;
 	color:#bbbbbb;
@@ -3615,7 +3615,7 @@ h3.widget-title:before {
     margin-right: 35px;
     display:inline-block;
     border:none;
-    background: #ff712a;
+    background: #7c9f29;
     border-radius:0px;
     color: #ffffff;
     position: relative;
@@ -3627,7 +3627,7 @@ h3.widget-title:before {
     position: absolute;
     top: 0;
     right: -40px;
-    border-left: 20px solid #ff712a;
+    border-left: 20px solid #7c9f29;
     border-right: 20px solid transparent;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
@@ -3710,13 +3710,13 @@ h3.widget-title:before {
     width: 15px;
     text-align: center;
     line-height: 15px;
-    border: 1px solid #ff712a;
+    border: 1px solid #7c9f29;
 }
 .woocommerce-billing-fields .form-group label input{
     display: none;
 }
 .woocommerce-billing-fields .form-group label input:checked ~ .checkmark{
-    background-color: #ff712a;
+    background-color: #7c9f29;
 }
 .woocommerce-billing-fields .form-group label .checkmark:after {
     content: "";
@@ -3831,7 +3831,7 @@ h3.widget-title:before {
 }
 .cy_shop_single_page .entry-summary .product-price-amount{
     margin-bottom: 20px;
-    color: #ff712a;
+    color: #7c9f29;
 }
 .cy_shop_single_page .entry-summary .quantity{
     margin-top: 20px;
@@ -3855,14 +3855,14 @@ h3.widget-title:before {
     display: inline-block;
 }
 .woocommerce-tabs ul.tabs li.nav-item a.active{
-    background: #ff712a;
+    background: #7c9f29;
     color:#fff;
-    border:1px solid #ff712a;
+    border:1px solid #7c9f29;
 }
 .woocommerce-tabs ul.tabs li.nav-item a{
     border: 1px solid #e1e1e1;
     border-bottom:1px solid transparent;
-    color: #424e59;
+    color: #23311a;
 }
 .woocommerce-tabs .tab-content{
     border: 1px solid #e1e1e1;
@@ -3905,7 +3905,7 @@ h3.widget-title:before {
 .comment-form-rating .stars i:after{
     content: "\f005";
     font-family: 'fontawesome';
-    color: #ff712a;
+    color: #7c9f29;
     position: absolute;
     left: 0;
     top: 0;
@@ -4019,7 +4019,7 @@ h3.widget-title:before {
         width:50%;
         float:left;
         margin-bottom: 20px;
-        color:#2f3942;
+        color:#23311a;
     }
     #products .list-group-item .cy_store_box .cy_store_data .cy_store_text ul{
         width:50%;
@@ -4058,7 +4058,7 @@ h3.widget-title:before {
         height: 40px;
         border: 1px solid transparent;
         margin: 20px 0px;
-        background-color: #f27131;
+        background-color: #6b8b24;
         position: relative;
         text-align: center;
     }
@@ -4085,7 +4085,7 @@ h3.widget-title:before {
         padding: 0px 85px;
     }
     .cy_menu ul {
-        background-color: #000;
+        background-color: #23311a;
         position: fixed;
         left: 0;
         width: 100%;
@@ -4110,10 +4110,10 @@ h3.widget-title:before {
 	.open_menu .cy_menu ul::-webkit-scrollbar{
 		width: 5px;
 	}
-	.open_menu .cy_menu ul::-webkit-scrollbar-thumb{
-	  background-color: #ff712a;
-	  outline: 1px solid slategrey;
-	}
+        .open_menu .cy_menu ul::-webkit-scrollbar-thumb{
+          background-color: #7c9f29;
+          outline: 1px solid slategrey;
+        }
     button.cy_menu_btn i {
         color: #ffffff;
         font-size: 18px;
@@ -4167,7 +4167,7 @@ h3.widget-title:before {
     }
     .cy_search a{
         display: inline-block;
-        background: #ff712a;
+        background: #7c9f29;
         height: 40px;
         width: 40px;
         text-align: center;
@@ -4376,7 +4376,7 @@ h3.widget-title:before {
         position: absolute;
         top: 100%;
         width: 200px;
-        background-color: #2f3942;
+        background-color: #23311a;
         backface-visibility: hidden;
         visibility: hidden;
         opacity: 0;
@@ -4398,10 +4398,10 @@ h3.widget-title:before {
         color: #ffffff;
         font-size: 14px;
         font-weight: 400;
-        border-bottom: 1px solid #424e59;
+        border-bottom: 1px solid #23311a;
     }
     .cy_menu ul > li > ul.sub-menu li a:hover {
-        color: #ff712a;
+        color: #6b8b24;
     }
     .cy_menu ul > li > ul.sub-menu li:last-child a {
         border-bottom: none;
