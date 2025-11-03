@@ -401,6 +401,9 @@ ul.cart_box li .cart_section a.cy_button{
 }
 .cy_logo_box img {
     display: inline-block;
+    max-height: 72px;
+    height: auto;
+    width: auto;
 }
 @media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
